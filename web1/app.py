@@ -49,5 +49,5 @@ def movies():
     ]
     return render_template("movies.html", movies= moviesList )
 
-if __name__ == "__main__": #Ctrl + C -> machine auto run 
+if __name__ == "__main__": #Ctrl + S -> machine auto run 
     app.run(debug=True)   
