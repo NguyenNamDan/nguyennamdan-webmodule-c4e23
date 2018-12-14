@@ -1,0 +1,33 @@
+* {
+    font-size: 1.2rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+html, body {
+    height: 100%; 
+}
+.center_container {
+    height: 100%; 
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_group {
+    margin: 10px;
+}
+
+.form_group > label {
+    display: inline-block;
+    width: 120px;
+}
+
+#btn_login {
+    float: right; 
+    margin: 10px;
+    background-color: blueviolet;
+    color: white;
+    padding: 4px 8px 4px 8px;
+    border-radius: 4px;
+}
