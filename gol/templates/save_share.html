@@ -22,7 +22,17 @@
             <li><a href="/contribute">Góp ý</a></li>
         </ul>
     </div>
-    <a href="http://127.0.0.1:5000/sign_in" class="choco_color">Đăng nhập</a>
-    <a href="http://127.0.0.1:5000/sign_up" class="choco_color">Đăng ký</a>
+    <div>
+        <form action="" method="POST">
+            <label for="">Miêu tả</label>
+            <input type="text" name="description">
+            <label for="">thêm ảnh</label>
+            <input type="url" name="image">
+            <label for="">Chia sẻ</label>
+            <input type="radio" name="share" value="yes">Yes
+            <input type="radio" name="share" value="no">No
+            <button type="submit">Save</button>
+        </form>
+    </div>
 </body>
 </html>
